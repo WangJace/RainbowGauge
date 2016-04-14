@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		964B3D471CBBE64D00C5E5A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 964B3D461CBBE64D00C5E5A0 /* main.m */; };
+		964B3D4A1CBBE64D00C5E5A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 964B3D491CBBE64D00C5E5A0 /* AppDelegate.m */; };
+		964B3D4D1CBBE64D00C5E5A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 964B3D4C1CBBE64D00C5E5A0 /* ViewController.m */; };
+		964B3D501CBBE64D00C5E5A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964B3D4E1CBBE64D00C5E5A0 /* Main.storyboard */; };
+		964B3D521CBBE64D00C5E5A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964B3D511CBBE64D00C5E5A0 /* Assets.xcassets */; };
+		964B3D551CBBE64D00C5E5A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964B3D531CBBE64D00C5E5A0 /* LaunchScreen.storyboard */; };
+		964B3D601CBBE64D00C5E5A0 /* RainbowGaugeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 964B3D5F1CBBE64D00C5E5A0 /* RainbowGaugeTests.m */; };
+		964B3D6B1CBBE64D00C5E5A0 /* RainbowGaugeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 964B3D6A1CBBE64D00C5E5A0 /* RainbowGaugeUITests.m */; };
+		964B3D7A1CBBE69900C5E5A0 /* RainbowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 964B3D791CBBE69900C5E5A0 /* RainbowView.m */; };
+		964B3D7D1CBBE7EF00C5E5A0 /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 964B3D7C1CBBE7EF00C5E5A0 /* Triangle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		964B3D5C1CBBE64D00C5E5A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 964B3D3A1CBBE64D00C5E5A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 964B3D411CBBE64D00C5E5A0;
+			remoteInfo = RainbowGauge;
+		};
+		964B3D671CBBE64D00C5E5A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 964B3D3A1CBBE64D00C5E5A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 964B3D411CBBE64D00C5E5A0;
+			remoteInfo = RainbowGauge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		964B3D421CBBE64D00C5E5A0 /* RainbowGauge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowGauge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		964B3D461CBBE64D00C5E5A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		964B3D481CBBE64D00C5E5A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		964B3D491CBBE64D00C5E5A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		964B3D4B1CBBE64D00C5E5A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		964B3D4C1CBBE64D00C5E5A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		964B3D4F1CBBE64D00C5E5A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		964B3D511CBBE64D00C5E5A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		964B3D541CBBE64D00C5E5A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		964B3D561CBBE64D00C5E5A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		964B3D5B1CBBE64D00C5E5A0 /* RainbowGaugeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainbowGaugeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		964B3D5F1CBBE64D00C5E5A0 /* RainbowGaugeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RainbowGaugeTests.m; sourceTree = "<group>"; };
+		964B3D611CBBE64D00C5E5A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		964B3D661CBBE64D00C5E5A0 /* RainbowGaugeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainbowGaugeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		964B3D6A1CBBE64D00C5E5A0 /* RainbowGaugeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RainbowGaugeUITests.m; sourceTree = "<group>"; };
+		964B3D6C1CBBE64D00C5E5A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		964B3D781CBBE69900C5E5A0 /* RainbowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainbowView.h; sourceTree = "<group>"; };
+		964B3D791CBBE69900C5E5A0 /* RainbowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainbowView.m; sourceTree = "<group>"; };
+		964B3D7B1CBBE7EF00C5E5A0 /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		964B3D7C1CBBE7EF00C5E5A0 /* Triangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Triangle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		964B3D3F1CBBE64D00C5E5A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964B3D581CBBE64D00C5E5A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964B3D631CBBE64D00C5E5A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		964B3D391CBBE64D00C5E5A0 = {
+			isa = PBXGroup;
+			children = (
+				964B3D441CBBE64D00C5E5A0 /* RainbowGauge */,
+				964B3D5E1CBBE64D00C5E5A0 /* RainbowGaugeTests */,
+				964B3D691CBBE64D00C5E5A0 /* RainbowGaugeUITests */,
+				964B3D431CBBE64D00C5E5A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		964B3D431CBBE64D00C5E5A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				964B3D421CBBE64D00C5E5A0 /* RainbowGauge.app */,
+				964B3D5B1CBBE64D00C5E5A0 /* RainbowGaugeTests.xctest */,
+				964B3D661CBBE64D00C5E5A0 /* RainbowGaugeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		964B3D441CBBE64D00C5E5A0 /* RainbowGauge */ = {
+			isa = PBXGroup;
+			children = (
+				964B3D7B1CBBE7EF00C5E5A0 /* Triangle.h */,
+				964B3D7C1CBBE7EF00C5E5A0 /* Triangle.m */,
+				964B3D481CBBE64D00C5E5A0 /* AppDelegate.h */,
+				964B3D491CBBE64D00C5E5A0 /* AppDelegate.m */,
+				964B3D4B1CBBE64D00C5E5A0 /* ViewController.h */,
+				964B3D4C1CBBE64D00C5E5A0 /* ViewController.m */,
+				964B3D4E1CBBE64D00C5E5A0 /* Main.storyboard */,
+				964B3D511CBBE64D00C5E5A0 /* Assets.xcassets */,
+				964B3D531CBBE64D00C5E5A0 /* LaunchScreen.storyboard */,
+				964B3D561CBBE64D00C5E5A0 /* Info.plist */,
+				964B3D451CBBE64D00C5E5A0 /* Supporting Files */,
+				964B3D781CBBE69900C5E5A0 /* RainbowView.h */,
+				964B3D791CBBE69900C5E5A0 /* RainbowView.m */,
+			);
+			path = RainbowGauge;
+			sourceTree = "<group>";
+		};
+		964B3D451CBBE64D00C5E5A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				964B3D461CBBE64D00C5E5A0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		964B3D5E1CBBE64D00C5E5A0 /* RainbowGaugeTests */ = {
+			isa = PBXGroup;
+			children = (
+				964B3D5F1CBBE64D00C5E5A0 /* RainbowGaugeTests.m */,
+				964B3D611CBBE64D00C5E5A0 /* Info.plist */,
+			);
+			path = RainbowGaugeTests;
+			sourceTree = "<group>";
+		};
+		964B3D691CBBE64D00C5E5A0 /* RainbowGaugeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				964B3D6A1CBBE64D00C5E5A0 /* RainbowGaugeUITests.m */,
+				964B3D6C1CBBE64D00C5E5A0 /* Info.plist */,
+			);
+			path = RainbowGaugeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		964B3D411CBBE64D00C5E5A0 /* RainbowGauge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 964B3D6F1CBBE64D00C5E5A0 /* Build configuration list for PBXNativeTarget "RainbowGauge" */;
+			buildPhases = (
+				964B3D3E1CBBE64D00C5E5A0 /* Sources */,
+				964B3D3F1CBBE64D00C5E5A0 /* Frameworks */,
+				964B3D401CBBE64D00C5E5A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RainbowGauge;
+			productName = RainbowGauge;
+			productReference = 964B3D421CBBE64D00C5E5A0 /* RainbowGauge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		964B3D5A1CBBE64D00C5E5A0 /* RainbowGaugeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 964B3D721CBBE64D00C5E5A0 /* Build configuration list for PBXNativeTarget "RainbowGaugeTests" */;
+			buildPhases = (
+				964B3D571CBBE64D00C5E5A0 /* Sources */,
+				964B3D581CBBE64D00C5E5A0 /* Frameworks */,
+				964B3D591CBBE64D00C5E5A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				964B3D5D1CBBE64D00C5E5A0 /* PBXTargetDependency */,
+			);
+			name = RainbowGaugeTests;
+			productName = RainbowGaugeTests;
+			productReference = 964B3D5B1CBBE64D00C5E5A0 /* RainbowGaugeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		964B3D651CBBE64D00C5E5A0 /* RainbowGaugeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 964B3D751CBBE64D00C5E5A0 /* Build configuration list for PBXNativeTarget "RainbowGaugeUITests" */;
+			buildPhases = (
+				964B3D621CBBE64D00C5E5A0 /* Sources */,
+				964B3D631CBBE64D00C5E5A0 /* Frameworks */,
+				964B3D641CBBE64D00C5E5A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				964B3D681CBBE64D00C5E5A0 /* PBXTargetDependency */,
+			);
+			name = RainbowGaugeUITests;
+			productName = RainbowGaugeUITests;
+			productReference = 964B3D661CBBE64D00C5E5A0 /* RainbowGaugeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		964B3D3A1CBBE64D00C5E5A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王傲云";
+				TargetAttributes = {
+					964B3D411CBBE64D00C5E5A0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					964B3D5A1CBBE64D00C5E5A0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 964B3D411CBBE64D00C5E5A0;
+					};
+					964B3D651CBBE64D00C5E5A0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 964B3D411CBBE64D00C5E5A0;
+					};
+				};
+			};
+			buildConfigurationList = 964B3D3D1CBBE64D00C5E5A0 /* Build configuration list for PBXProject "RainbowGauge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 964B3D391CBBE64D00C5E5A0;
+			productRefGroup = 964B3D431CBBE64D00C5E5A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				964B3D411CBBE64D00C5E5A0 /* RainbowGauge */,
+				964B3D5A1CBBE64D00C5E5A0 /* RainbowGaugeTests */,
+				964B3D651CBBE64D00C5E5A0 /* RainbowGaugeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		964B3D401CBBE64D00C5E5A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964B3D551CBBE64D00C5E5A0 /* LaunchScreen.storyboard in Resources */,
+				964B3D521CBBE64D00C5E5A0 /* Assets.xcassets in Resources */,
+				964B3D501CBBE64D00C5E5A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964B3D591CBBE64D00C5E5A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964B3D641CBBE64D00C5E5A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		964B3D3E1CBBE64D00C5E5A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964B3D7D1CBBE7EF00C5E5A0 /* Triangle.m in Sources */,
+				964B3D4D1CBBE64D00C5E5A0 /* ViewController.m in Sources */,
+				964B3D7A1CBBE69900C5E5A0 /* RainbowView.m in Sources */,
+				964B3D4A1CBBE64D00C5E5A0 /* AppDelegate.m in Sources */,
+				964B3D471CBBE64D00C5E5A0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964B3D571CBBE64D00C5E5A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964B3D601CBBE64D00C5E5A0 /* RainbowGaugeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		964B3D621CBBE64D00C5E5A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964B3D6B1CBBE64D00C5E5A0 /* RainbowGaugeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		964B3D5D1CBBE64D00C5E5A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 964B3D411CBBE64D00C5E5A0 /* RainbowGauge */;
+			targetProxy = 964B3D5C1CBBE64D00C5E5A0 /* PBXContainerItemProxy */;
+		};
+		964B3D681CBBE64D00C5E5A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 964B3D411CBBE64D00C5E5A0 /* RainbowGauge */;
+			targetProxy = 964B3D671CBBE64D00C5E5A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		964B3D4E1CBBE64D00C5E5A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				964B3D4F1CBBE64D00C5E5A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		964B3D531CBBE64D00C5E5A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				964B3D541CBBE64D00C5E5A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		964B3D6D1CBBE64D00C5E5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		964B3D6E1CBBE64D00C5E5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		964B3D701CBBE64D00C5E5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RainbowGauge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jace.RainbowGauge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		964B3D711CBBE64D00C5E5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RainbowGauge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jace.RainbowGauge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		964B3D731CBBE64D00C5E5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RainbowGaugeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jace.RainbowGaugeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainbowGauge.app/RainbowGauge";
+			};
+			name = Debug;
+		};
+		964B3D741CBBE64D00C5E5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RainbowGaugeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jace.RainbowGaugeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainbowGauge.app/RainbowGauge";
+			};
+			name = Release;
+		};
+		964B3D761CBBE64D00C5E5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RainbowGaugeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jace.RainbowGaugeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RainbowGauge;
+			};
+			name = Debug;
+		};
+		964B3D771CBBE64D00C5E5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RainbowGaugeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jace.RainbowGaugeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RainbowGauge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		964B3D3D1CBBE64D00C5E5A0 /* Build configuration list for PBXProject "RainbowGauge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964B3D6D1CBBE64D00C5E5A0 /* Debug */,
+				964B3D6E1CBBE64D00C5E5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		964B3D6F1CBBE64D00C5E5A0 /* Build configuration list for PBXNativeTarget "RainbowGauge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964B3D701CBBE64D00C5E5A0 /* Debug */,
+				964B3D711CBBE64D00C5E5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		964B3D721CBBE64D00C5E5A0 /* Build configuration list for PBXNativeTarget "RainbowGaugeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964B3D731CBBE64D00C5E5A0 /* Debug */,
+				964B3D741CBBE64D00C5E5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		964B3D751CBBE64D00C5E5A0 /* Build configuration list for PBXNativeTarget "RainbowGaugeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				964B3D761CBBE64D00C5E5A0 /* Debug */,
+				964B3D771CBBE64D00C5E5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 964B3D3A1CBBE64D00C5E5A0 /* Project object */;
+}
