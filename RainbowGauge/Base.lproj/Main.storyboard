@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -58,21 +59,50 @@
                                     </mask>
                                 </variation>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fzd-2O-KFj" customClass="RainbowView">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="ctM-sR-INl"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="ctM-sR-INl"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="ctM-sR-INl"/>
+                                    </mask>
+                                </variation>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="j7N-VQ-GLv" secondAttribute="bottom" constant="30" id="0om-oT-FXb"/>
                             <constraint firstItem="j7N-VQ-GLv" firstAttribute="top" secondItem="0lt-jI-2cN" secondAttribute="bottom" constant="30" id="4qj-XV-jT0"/>
+                            <constraint firstItem="fzd-2O-KFj" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:2" id="J6Z-Vr-zdv"/>
+                            <constraint firstAttribute="trailing" secondItem="fzd-2O-KFj" secondAttribute="trailing" constant="50" id="JgM-Pr-fHX">
+                                <variation key="heightClass=regular-widthClass=compact" constant="20"/>
+                            </constraint>
                             <constraint firstItem="0lt-jI-2cN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="L1W-0h-8uv"/>
                             <constraint firstAttribute="trailing" secondItem="j7N-VQ-GLv" secondAttribute="trailing" constant="20" id="c8a-K0-5xM"/>
+                            <constraint firstItem="fzd-2O-KFj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="fWP-Wx-k7c">
+                                <variation key="heightClass=regular-widthClass=compact" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="fzd-2O-KFj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gKY-nU-QBj"/>
                             <constraint firstItem="j7N-VQ-GLv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="hdx-HT-F5J"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="j7N-VQ-GLv"/>
                                 <exclude reference="0lt-jI-2cN"/>
+                                <exclude reference="fzd-2O-KFj"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="J6Z-Vr-zdv"/>
+                                <exclude reference="JgM-Pr-fHX"/>
+                                <exclude reference="fWP-Wx-k7c"/>
+                                <exclude reference="gKY-nU-QBj"/>
                                 <exclude reference="L1W-0h-8uv"/>
                                 <exclude reference="0om-oT-FXb"/>
                                 <exclude reference="4qj-XV-jT0"/>
@@ -84,8 +114,13 @@
                             <mask key="subviews">
                                 <include reference="j7N-VQ-GLv"/>
                                 <include reference="0lt-jI-2cN"/>
+                                <include reference="fzd-2O-KFj"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="J6Z-Vr-zdv"/>
+                                <include reference="JgM-Pr-fHX"/>
+                                <include reference="fWP-Wx-k7c"/>
+                                <include reference="gKY-nU-QBj"/>
                                 <include reference="L1W-0h-8uv"/>
                                 <include reference="0om-oT-FXb"/>
                                 <include reference="4qj-XV-jT0"/>
@@ -95,6 +130,7 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="rainbowGaugeView" destination="fzd-2O-KFj" id="Cy4-CV-A56"/>
                         <outlet property="valueLabel" destination="0lt-jI-2cN" id="gGi-ak-e7m"/>
                     </connections>
                 </viewController>
